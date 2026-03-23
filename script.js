@@ -43,7 +43,7 @@ function converterIdade(){
     let idade , r;
     idade = parseFloat(prompt('Digite sua idade'));
     r = 12 * idade;
-    document.write(r);
+    document.writeln(r);
 }
 
 function media(){
@@ -52,7 +52,7 @@ function media(){
     nota2 = parseFloat(prompt('Digite sua nota2'));
     nota3 = parseFloat(prompt('Digite sua nota3'));
     r = (nota1 + nota2 + nota3) / 3;
-    document.write(r);
+    document.writeln(r);
 
     if (r >= 6){
         document.writeln(" O aluno foi aprovado");
@@ -61,3 +61,38 @@ function media(){
     }
 }
 
+
+function calcularDesconto(){
+    let preco , desconto , valorDesconto, precoFinal;
+    preco = parseFloat(prompt('Digite o Valor do Produto'));
+    desconto = parseFloat(prompt('Digite o Valor do Desconto'));
+    valorDesconto = preco * (desconto /100);
+    precoFinal = preco - valorDesconto;
+    document.writeln('Preço original:R$' + preco.toFixed(2));
+    document.writeln('Desconto: (' + desconto + '%): R$ ' + valorDesconto.toFixed(2));
+    document.writeln('Preço final:R$' + precoFinal.toFixed(2));
+}
+
+function tabuada(){
+    let numero;
+    numero = parseInt(prompt('Digite um número para ver a tabuada'));
+    document.writeln('Tabuada do' + numero + ':');
+    for (let i = 1; i <= 10; i++){
+        document.writeln('<br>'); 
+        document.writeln(numero + 'x' + i + ' = ' + (numero * i));
+        document.writeln('<br>');
+        document.writeln(numero + '+' + i + ' = ' + (numero * i)); 
+        document.writeln('<br>');
+        document.writeln(numero + '-' + i + ' = ' + (numero * i)); 
+        document.writeln('<br>');
+        document.writeln(numero + '/' + i + ' = ' + (numero * i)); 
+        document.writeln('<br>');
+    }
+}
+
+function converterMedida(){
+    let metros , centimetros;
+    metros = parseFloat(prompt('Digite o valor em Metros'));
+    centimetros = metros * 100;
+    document.writeln(metros + ' metro(s) = ' + centimetros + 'centimetro(s)');
+}
