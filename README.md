@@ -21,8 +21,18 @@ Exercícios práticos de introdução a funções em JavaScript, utilizando `pro
 | 11 | `converterMedida()` | Converte metros para centímetros |
 
 ---
-## 👨‍💻 Autor
+
+## 👤 Autor
 
 **Caio Vinicius**  
-Estudante de Análise e Desenvolvimento de Sistemas — Centro Universitário Jorge Amado  
-GitHub: [@caioba19](https://github.com/caioba19)
+Estudante de Análise e Desenvolvimento de Sistemas  
+Centro Universitário Jorge Amado — Salvador, BA  
+
+[![GitHub](https://img.shields.io/badge/GitHub-caioba19-181717?style=flat&logo=github)](https://github.com/caioba19)
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins acadêmicos. Sinta-se livre para usar, estudar e adaptar.
+
